@@ -1,5 +1,5 @@
 
-  class Costumes < ActiveRecord::Migration[5.2]
+  class CreateCostumes < ActiveRecord::Migration[5.2]
     def change
       create_table :costumes do |c|
         c.string :name
